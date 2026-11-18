@@ -45,14 +45,14 @@ MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
 
 ## 新增插件
 
-1. 新建实现仓库（例如 `mos/foo`），结构参考
+1. 新建实现仓库（例如 `mos-mytool`），结构参考
    [MOS Plugin Development Guide](https://docs.mos-official.net/docs/Plugins/MOS-Plugin-Development-Guide)：
    `page/`、`functions`、`settings.json`、安装脚本、Release workflow。
-2. 在本仓库添加 `plugins/foo.json`：
+2. 在本仓库添加 `plugins/mytool.json`：
    - `repository` 指向实现仓库
-   - `icon` 指向本仓库 `images/foo.png`
+   - `icon` 指向本仓库 `images/mytool.png`
    - `readme_url` 指向实现仓库 README
-3. 把图标放到 `images/foo.png`。
+3. 把图标放到 `images/mytool.png`。
 4. 提交、推送，然后在 MOS 里 Refresh。
 
 一个 Hub 仓库可以包含很多插件条目；每个实现仓库只负责一个插件。
