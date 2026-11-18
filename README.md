@@ -7,16 +7,16 @@
 
 | 插件 | 说明 | 实现仓库 |
 | --- | --- | --- |
-| HerdrCore | Headless terminal runtime for coding agents (`hc`) | [hustyanzu/mos-herdr-core](https://github.com/hustyanzu/mos-herdr-core) |
-| Neovim | Vim-based text editor with persistent config | [hustyanzu/mos-neovim](https://github.com/hustyanzu/mos-neovim) |
-| msedit | Microsoft Edit terminal editor with ICU runtime | [hustyanzu/mos-msedit](https://github.com/hustyanzu/mos-msedit) |
+| HerdrCore | Headless terminal runtime for coding agents (`hc`) | [hustyanzu-mos/mos-herdr-core](https://github.com/hustyanzu-mos/mos-herdr-core) |
+| Neovim | Vim-based text editor with persistent config | [hustyanzu-mos/mos-neovim](https://github.com/hustyanzu-mos/mos-neovim) |
+| msedit | Microsoft Edit terminal editor with ICU runtime | [hustyanzu-mos/mos-msedit](https://github.com/hustyanzu-mos/mos-msedit) |
 
 ## 添加到 MOS
 
 **Settings → System Configuration → MOS Hub Settings → Add Repository**
 
 ```text
-https://github.com/hustyanzu/mos-templates
+https://github.com/hustyanzu-mos/mos-templates
 ```
 
 Refresh 后到 **Docker → MOS Hub → Plugins** 安装。

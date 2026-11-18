@@ -2,12 +2,12 @@
   "name": "msedit",
   "description": "Microsoft Edit terminal editor with ICU runtime for search and replace.",
   "category": ["Utilities", "System"],
-  "repository": "https://github.com/hustyanzu/mos-msedit",
+  "repository": "https://github.com/hustyanzu-mos/mos-msedit",
   "architecture": ["amd64", "arm64"],
   "driver": false,
-  "icon": "https://raw.githubusercontent.com/hustyanzu/mos-templates/main/images/msedit.png",
-  "readme_url": "https://github.com/hustyanzu/mos-msedit#readme",
+  "icon": "https://raw.githubusercontent.com/hustyanzu-mos/mos-templates/main/images/msedit.png",
+  "readme_url": "https://github.com/hustyanzu-mos/mos-msedit#readme",
   "author": "hustyanzu",
   "homepage": "https://github.com/microsoft/edit",
-  "support": "https://github.com/hustyanzu/mos-msedit/issues"
+  "support": "https://github.com/hustyanzu-mos/mos-msedit/issues"
 }

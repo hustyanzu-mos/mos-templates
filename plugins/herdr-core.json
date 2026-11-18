@@ -2,12 +2,12 @@
   "name": "HerdrCore",
   "description": "Headless terminal runtime for coding agents (Herdr Core / hc). Exposes a Unix socket over SSH; no TCP port is opened.",
   "category": ["AI", "System"],
-  "repository": "https://github.com/hustyanzu/mos-herdr-core",
+  "repository": "https://github.com/hustyanzu-mos/mos-herdr-core",
   "architecture": ["amd64", "arm64"],
   "driver": false,
-  "icon": "https://raw.githubusercontent.com/hustyanzu/mos-templates/main/images/herdr-core.png",
-  "readme_url": "https://github.com/hustyanzu/mos-herdr-core#readme",
+  "icon": "https://raw.githubusercontent.com/hustyanzu-mos/mos-templates/main/images/herdr-core.png",
+  "readme_url": "https://github.com/hustyanzu-mos/mos-herdr-core#readme",
   "author": "hustyanzu",
   "homepage": "https://herdr.dev",
-  "support": "https://github.com/hustyanzu/mos-herdr-core/issues"
+  "support": "https://github.com/hustyanzu-mos/mos-herdr-core/issues"
 }
