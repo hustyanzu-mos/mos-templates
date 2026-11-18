@@ -10,6 +10,7 @@
 | HerdrCore | Headless terminal runtime for coding agents (`hc`) | [hustyanzu-mos/mos-herdr-core](https://github.com/hustyanzu-mos/mos-herdr-core) |
 | Neovim | Vim-based text editor with persistent config | [hustyanzu-mos/mos-neovim](https://github.com/hustyanzu-mos/mos-neovim) |
 | MSEdit | Simple terminal text editor inspired by the MS-DOS Editor | [hustyanzu-mos/mos-msedit](https://github.com/hustyanzu-mos/mos-msedit) |
+| Yazi | Blazing fast terminal file manager with previews | [hustyanzu-mos/mos-yazi](https://github.com/hustyanzu-mos/mos-yazi) |
 
 ## 添加到 MOS
 
@@ -32,6 +33,7 @@ MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
      - `mos-herdr-core`
      - `mos-neovim`
      - `mos-msedit`
+     - `mos-yazi`
    - **Permissions:**
 
      | Permission | Access | 用途 |
