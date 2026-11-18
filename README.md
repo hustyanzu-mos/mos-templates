@@ -27,9 +27,21 @@ MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
 
 1. **Settings → Network → Token → GitHub Token** 填入 PAT。
 2. 推荐 fine-grained token：
-   - **Repository access:** Only select repositories（选择 `mos-templates`、`mos-herdr-core`）
-   - **Permissions:** `Contents: Read`、`Metadata: Read`、`Packages: Read`
-   - 如果私有索引仓库 clone 失败，改用 classic PAT（`repo` + `read:packages`）
+   - **Repository access:** Only select repositories
+     - `mos-templates`
+     - `mos-herdr-core`
+     - `mos-neovim`
+     - `mos-msedit`
+   - **Permissions:**
+
+     | Permission | Access | 用途 |
+     | --- | --- | --- |
+     | `Contents` | Read-only | clone 私有仓库、读取 release、下载 `.deb` |
+     | `Metadata` | Read-only | 必需（fine-grained PAT 自动包含） |
+     | `Packages` | Read-only | 拉取私有 GHCR 镜像；不用 GHCR 可不给 |
+
+   - 其他权限全部 No access。
+   - 如果私有索引仓库 clone 失败，改用 classic PAT（`repo` + `read:packages`）。
 3. MOS 会用这个 token：
    - clone 私有的 `mos-templates`
    - 通过 GitHub API 读取私有实现仓库的 release 和 `.deb`
