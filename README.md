@@ -8,6 +8,8 @@
 | 插件 | 说明 | 实现仓库 |
 | --- | --- | --- |
 | HerdrCore | Headless terminal runtime for coding agents (`hc`) | [hustyanzu/mos-herdr-core](https://github.com/hustyanzu/mos-herdr-core) |
+| Neovim | Vim-based text editor with persistent config | [hustyanzu/mos-neovim](https://github.com/hustyanzu/mos-neovim) |
+| msedit | Microsoft Edit terminal editor with ICU runtime | [hustyanzu/mos-msedit](https://github.com/hustyanzu/mos-msedit) |
 
 ## 添加到 MOS
 

@@ -1,0 +1,13 @@
+{
+  "name": "Neovim",
+  "description": "Vim-based text editor with persistent config on MOS.",
+  "category": ["Utilities", "System"],
+  "repository": "https://github.com/hustyanzu/mos-neovim",
+  "architecture": ["amd64", "arm64"],
+  "driver": false,
+  "icon": "https://raw.githubusercontent.com/hustyanzu/mos-templates/main/images/neovim.png",
+  "readme_url": "https://github.com/hustyanzu/mos-neovim#readme",
+  "author": "hustyanzu",
+  "homepage": "https://neovim.io",
+  "support": "https://github.com/hustyanzu/mos-neovim/issues"
+}
