@@ -26,7 +26,7 @@ Refresh 后到 **Docker → MOS Hub → Plugins** 安装。
 MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
 
 1. **Settings → Network → Token → GitHub Token** 填入 PAT。
-2. 推荐 fine-grained token：
+2. 只访问私有 **插件仓库**（不用私有 GHCR）时，推荐 fine-grained token：
    - **Repository access:** Only select repositories
      - `mos-templates`
      - `mos-herdr-core`
@@ -38,10 +38,21 @@ MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
      | --- | --- | --- |
      | `Contents` | Read-only | clone 私有仓库、读取 release、下载 `.deb` |
      | `Metadata` | Read-only | 必需（fine-grained PAT 自动包含） |
-     | `Packages` | Read-only | 拉取私有 GHCR 镜像；不用 GHCR 可不给 |
 
-   - 其他权限全部 No access。
-   - 如果私有索引仓库 clone 失败，改用 classic PAT（`repo` + `read:packages`）。
+   - 不需要 `Packages`；GitHub Container Registry 目前只支持 classic PAT，
+     fine-grained 的 UI 里可能没有这个权限，找不到是正常的。
+
+3. 需要私有 **GHCR** 镜像时，用 classic PAT：
+   - scope: `repo` + `read:packages`
+   - 如果 package 在组织下，可能还需要 `read:org` 和 SSO 授权
+   - 如果 package 链接到私有仓库，`repo` 是必须的（GitHub 的默认行为）
+
+4. MOS 只有一个 GitHub Token 字段。如果既要私有插件仓库又要私有 GHCR，
+   直接用同一个 classic PAT（`repo` + `read:packages`）最简单；`repo` 权限较宽，
+   只用私有仓库时优先 fine-grained。
+
+5. 如果私有索引仓库 clone 失败（fine-grained 的 clone URL 兼容性问题），
+   也改用 classic PAT（`repo` + `read:packages`）。
 3. MOS 会用这个 token：
    - clone 私有的 `mos-templates`
    - 通过 GitHub API 读取私有实现仓库的 release 和 `.deb`
