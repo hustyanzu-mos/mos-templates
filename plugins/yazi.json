@@ -1,0 +1,13 @@
+{
+  "name": "Yazi",
+  "description": "Blazing fast terminal file manager with previews and persistent config.",
+  "category": ["Utilities", "System"],
+  "repository": "https://github.com/hustyanzu-mos/mos-yazi",
+  "architecture": ["amd64", "arm64"],
+  "driver": false,
+  "icon": "https://raw.githubusercontent.com/hustyanzu-mos/mos-templates/main/images/yazi.png",
+  "readme_url": "https://github.com/hustyanzu-mos/mos-yazi#readme",
+  "author": "hustyanzu",
+  "homepage": "https://yazi-rs.github.io",
+  "support": "https://github.com/hustyanzu-mos/mos-yazi/issues"
+}
