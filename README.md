@@ -34,6 +34,10 @@ MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
    - 以 `ghcr.io` 认证拉取私有 Docker / Compose 镜像
 4. token 加密保存在 `/boot/config/system/tokens.json`，只读使用；不要授予写权限。
 
+> 图标和 README 链接是浏览器直接加载的 URL。如果 `mos-templates` 设为私有，
+> 插件卡片图标可能显示不出来；建议索引仓库保持 public（只有元数据），
+> 实现仓库 `mos-herdr-core` 保持 private。
+
 > HerdrCore 的二进制来自公开的 `releases.herdr.dev`，不依赖 GitHub token；
 > token 只用于私有的 Hub/实现仓库和私有 GHCR 镜像。
 
