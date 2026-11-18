@@ -1,0 +1,13 @@
+{
+  "name": "OpenCode v2",
+  "description": "OpenCode v2 with a MOS-managed runtime. Self-update and /update are disabled; the background server is off by default.",
+  "category": ["AI"],
+  "repository": "https://github.com/hustyanzu-mos/mos-opencode-v2",
+  "architecture": ["amd64", "arm64"],
+  "driver": false,
+  "icon": "https://raw.githubusercontent.com/hustyanzu-mos/mos-templates/main/images/opencode-v2.png",
+  "readme_url": "https://github.com/hustyanzu-mos/mos-opencode-v2#readme",
+  "author": "hustyanzu",
+  "homepage": "https://opencode.ai",
+  "support": "https://github.com/hustyanzu-mos/mos-opencode-v2/issues"
+}
