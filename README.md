@@ -12,7 +12,6 @@
 | MSEdit | Simple terminal text editor inspired by the MS-DOS Editor | [hustyanzu-mos/mos-msedit](https://github.com/hustyanzu-mos/mos-msedit) |
 | Yazi | Blazing fast terminal file manager with previews | [hustyanzu-mos/mos-yazi](https://github.com/hustyanzu-mos/mos-yazi) |
 | OpenCode v2 | AI coding assistant with a MOS-managed runtime; server off by default | [hustyanzu-mos/mos-opencode-v2](https://github.com/hustyanzu-mos/mos-opencode-v2) |
-| OpenCode v2 | OpenCode v2 with managed runtime; self-update off, server off by default | [hustyanzu-mos/mos-opencode-v2](https://github.com/hustyanzu-mos/mos-opencode-v2) |
 
 ## 添加到 MOS
 
@@ -36,7 +35,6 @@ MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
      - `mos-neovim`
      - `mos-msedit`
      - `mos-yazi`
-     - `mos-opencode-v2`
      - `mos-opencode-v2`
    - **Permissions:**
 
