@@ -9,7 +9,7 @@
 | --- | --- | --- |
 | HerdrCore | Headless terminal runtime for coding agents (`hc`) | [hustyanzu-mos/mos-herdr-core](https://github.com/hustyanzu-mos/mos-herdr-core) |
 | Neovim | Vim-based text editor with persistent config | [hustyanzu-mos/mos-neovim](https://github.com/hustyanzu-mos/mos-neovim) |
-| msedit | Microsoft Edit terminal editor with ICU runtime | [hustyanzu-mos/mos-msedit](https://github.com/hustyanzu-mos/mos-msedit) |
+| MSEdit | Simple terminal text editor inspired by the MS-DOS Editor | [hustyanzu-mos/mos-msedit](https://github.com/hustyanzu-mos/mos-msedit) |
 
 ## 添加到 MOS
 

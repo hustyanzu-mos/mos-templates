@@ -1,6 +1,6 @@
 {
-  "name": "msedit",
-  "description": "Microsoft Edit terminal editor with ICU runtime for search and replace.",
+  "name": "MSEdit",
+  "description": "Simple terminal text editor inspired by the MS-DOS Editor.",
   "category": ["Utilities", "System"],
   "repository": "https://github.com/hustyanzu-mos/mos-msedit",
   "architecture": ["amd64", "arm64"],
