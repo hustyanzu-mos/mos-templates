@@ -53,11 +53,11 @@ MOS 的 GitHub Token 同时用于私有 GitHub 仓库和 GHCR：
 
 5. 如果私有索引仓库 clone 失败（fine-grained 的 clone URL 兼容性问题），
    也改用 classic PAT（`repo` + `read:packages`）。
-3. MOS 会用这个 token：
+6. MOS 会用这个 token：
    - clone 私有的 `mos-templates`
    - 通过 GitHub API 读取私有实现仓库的 release 和 `.deb`
    - 以 `ghcr.io` 认证拉取私有 Docker / Compose 镜像
-4. token 加密保存在 `/boot/config/system/tokens.json`，只读使用；不要授予写权限。
+7. token 加密保存在 `/boot/config/system/tokens.json`，只读使用；不要授予写权限。
 
 > 图标和 README 链接是浏览器直接加载的 URL。如果 `mos-templates` 设为私有，
 > 插件卡片图标可能显示不出来；建议索引仓库保持 public（只有元数据），
