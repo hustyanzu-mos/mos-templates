@@ -1,0 +1,13 @@
+{
+  "name": "Pi",
+  "description": "Pi coding agent with a MOS-managed runtime. Self-update is disabled; config and sessions are persistent.",
+  "category": ["AI"],
+  "repository": "https://github.com/hustyanzu-mos/mos-pi",
+  "architecture": ["amd64", "arm64"],
+  "driver": false,
+  "icon": "https://raw.githubusercontent.com/hustyanzu-mos/mos-templates/main/images/pi.png",
+  "readme_url": "https://github.com/hustyanzu-mos/mos-pi#readme",
+  "author": "hustyanzu",
+  "homepage": "https://pi.dev",
+  "support": "https://github.com/hustyanzu-mos/mos-pi/issues"
+}
